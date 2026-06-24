@@ -1,0 +1,13 @@
+{
+  "name": "aternos-afk-bot",
+  "version": "1.0.0",
+  "description": "24/7 Aternos AFK Bot",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.22.0"
+  }
+}

@@ -10,7 +10,7 @@ function createBot() {
         host: SERVER_IP,
         port: 25565,
         username: BOT_NAME,
-        version: false // Detecta automáticamente la versión de Minecraft
+        version: 1.21.1 // Detecta automáticamente la versión de Minecraft
     });
 
     bot.on('login', () => {
